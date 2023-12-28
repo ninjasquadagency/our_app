@@ -54,19 +54,6 @@
     </div>
   </div>
 
-  <!-- RTL mode switching -->
-  <div class="rtl-mode-switching">
-    <div class="d-flex w-100 h-100 align-items-center justify-content-center">
-      <div class="rtl-mode-text text-center">
-        <i class="bi bi-text-right"></i>
-        <p class="mb-0">Switching to RTL mode</p>
-      </div>
-      <div class="ltr-mode-text text-center">
-        <i class="bi bi-text-left"></i>
-        <p class="mb-0">Switching to default mode</p>
-      </div>
-    </div>
-  </div>
 
   <!-- Header Area-->
   <div class="header-area" id="headerArea">
@@ -87,7 +74,7 @@
 
         <!-- User Profile-->
         <div class="user-profile-wrapper">
-          <a class="user-profile-trigger-btn" href="#">
+          <a class="user-profile-trigger-btn" type="button" data-bs-toggle="modal" data-bs-target="#bottomAlignModal" href="#">
             <img src="img/bg-img/profile.png" alt="">
           </a>
         </div>
@@ -111,12 +98,6 @@
             </div>
           </div>
 
-          <div class="single-setting-panel">
-            <div class="form-check form-switch">
-              <input class="form-check-input" type="checkbox" id="rtlSwitch">
-              <label class="form-check-label" for="rtlSwitch">RTL Mode</label>
-            </div>
-          </div>
         </div>
       </div>
 
@@ -197,6 +178,26 @@
               ALL Pages
             </a>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Bottom Align Modal -->
+  <div class="modal fade bottom-align-modal" id="bottomAlignModal" tabindex="-1" aria-labelledby="bottomAlignModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-end">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title" id="bottomAlignModalLabel">Message For Me &#127881;!</h6>
+          <button class="btn btn-close p-1 ms-auto" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="mb-0">Hi dear I'm Marouan, From <b>NinjaSquad</b> If You Need Know about Me More Info Just Contact-Me Or Go To My Space.</p>
+        </div>
+        <div class="modal-footer">
+		   <a href="https://wa.me/0718113533" class="btn btn-sm btn-danger" type="button" target="_blank"><i class="bi bi-whatsapp"></i> Contact</a>
+		    <a href="https://marouananouar.github.io/Space/" class="btn btn-sm btn-success" type="button" target="_blank"><i class="bi bi-rocket-takeoff"></i> My Space</a>
         </div>
       </div>
     </div>
