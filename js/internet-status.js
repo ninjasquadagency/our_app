@@ -1,8 +1,8 @@
 "use strict";
 
 let intId = document.getElementById("internetStatus");
-let sucText = "Your internet connection is back.";
-let failText = "Oops! No internet connection.";
+let sucText = "Your Internet Connection Is Back. &#128525;";
+let failText = "Oops! No Internet Connection, Check Your Wifi. &#128276;";
 let sucCol = "#00b894";
 let failCol = "#ea4c62";
 

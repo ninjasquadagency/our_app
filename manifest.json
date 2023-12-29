@@ -1,13 +1,13 @@
 {
-  "name": "Affan - PWA Mobile HTML Template",
-  "short_name": "Affan",
-  "start_url": "https://designing-world.com/affan-1.6.0/hero-blocks.html",
+  "name": "NinjaSquad - Digital Agency",
+  "short_name": "NinjaSquad App",
+  "start_url": "https://ninjasquadagency.github.io/our_app/index.html",
   "display": "standalone",
   "background_color": "#0d5afd",
   "theme_color": "#0d5afd",
-  "categories": ["mobile", "multipurpose", "blog", "ecommerce", "pwa"],
+  "categories": ["Marketing Agency", "CEO Agency", "Digital Agency", "Ecommerce", "SaaS"],
   "orientation": "portrait",
-  "description": "Affan - PWA Mobile HTML Template",
+  "description": "NinjaSquad Agency Help You To Grow Your Business From Offline To Online And Get More Clients",
   "icons": [{
       "src": "img/icons/icon-72x72.png",
       "type": "image/png",
